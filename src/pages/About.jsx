@@ -52,15 +52,15 @@ export default function About() {
           <RevealOnScroll>
             <div className="about-details" style={{ maxWidth: '800px', margin: '0 auto', textAlign: 'center' }}>
               <h2>Harish Kumar</h2>
-              <p className="role">VR Designer | XR Production Lead</p>
+              <p className="role">3D Environment Artist | World Designer</p>
               <p>
-                Results-driven XR & Multimedia Production Lead with 4+ years of end-to-end experience in immersive technology, digital twins, and spatial computing.
+                3D Environment Artist & World Designer with 4+ years of experience building immersive real-time environments entirely from scratch — from 17th-century temple recreations to full-scale Bangalore city streets spanning 5 km.
               </p>
               <p>
-                Proven track record of architecting standalone VR simulations for enterprise clients like Apollo Tyres and Denso, and leading independent research in behavioral telemetry. 
+                Every environment I deliver is hand-crafted: custom-modeled architecture, hand-painted PBR textures in Substance Painter, bespoke procedural shaders, and meticulously optimized scenes for real-time performance. Proven track record delivering production environments for enterprise clients including Denso and Apollo Tyres.
               </p>
               <p>
-                Skilled in Unity XR Toolkit, Unreal Engine, and full-stack integration (C#, Node.js, cloud dashboard telemetry). Seeking to leverage expertise in 3D pipelines, real-time networking, and team-driven spatial storytelling to lead XR production.
+                Specialized in environment design, archviz, cinematic world-building, and digital twins across Unreal Engine 5 and Unity. Published independent researcher (Springer Nature). Seeking to bring deep environment art expertise, strong design sensibility, and a hands-on craft-driven approach to a 3D Artist or Environment Design role.
               </p>
             </div>
           </RevealOnScroll>
@@ -98,22 +98,22 @@ export default function About() {
           </RevealOnScroll>
           <RevealOnScroll>
             <div className="skill-card" style={{ maxWidth: '800px', margin: '0 auto 24px' }}>
-              <h3>Quexi Technologies — XR Production Lead / Senior XR Designer</h3>
+              <h3>Quexi Technologies — Senior 3D Artist / Environment Designer</h3>
               <p style={{ color: 'var(--accent-blue)', marginBottom: '12px', fontWeight: 600 }}>
                 April 2026 – Present
               </p>
               <p>
-                Leading the design and production of a comprehensive VR BIM Inspection Platform deployed on Meta Quest 3. Designing intuitive UX/UI for multi-discipline architectural inspections with integrated voice notes and cloud synchronization, while directing the optimization pipeline for complex Revit/BIM models.
+                Designing and building 3D environments and asset pipelines for a VR BIM Inspection Platform on Meta Quest 3. Leading the optimization of complex Revit/BIM architectural models into performant real-time scenes, crafting custom materials and lighting setups for accurate architectural visualization.
               </p>
             </div>
 
             <div className="skill-card" style={{ maxWidth: '800px', margin: '0 auto 24px' }}>
-              <h3>Marlion Technologies — Lead XR Designer</h3>
+              <h3>Marlion Technologies — Lead 3D Environment Artist</h3>
               <p style={{ color: 'var(--accent-blue)', marginBottom: '12px', fontWeight: 600 }}>
                 April 2023 – March 2026
               </p>
               <p>
-                Led the end-to-end multimedia and VR design pipeline for enterprise digital twins and immersive training environments. Designed and deployed real-scale VR car and pedestrian simulations for Denso, and an enterprise 3D onboarding digital twin for Apollo Tyres. Architected URP rendering pipelines and real-time performance optimization for standalone mobile hardware.
+                Designed and built all 3D environments, assets, and materials from scratch for enterprise projects. Created a 5 km real-world Bangalore city environment for Denso — hand-modeling every building, road element, and prop. Built digital twin environments for Apollo Tyres' Chennai factory. Developed custom shaders, optimized LOD pipelines, and delivered production-ready scenes across Unreal Engine 5 and Unity.
               </p>
             </div>
             

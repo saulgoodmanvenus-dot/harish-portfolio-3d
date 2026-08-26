@@ -20,14 +20,16 @@ export default function Home() {
         <div className="hero-content">
           <h1>HARISH KUMAR</h1>
           <div className="hero-divider"></div>
-          <p className="hero-subtitle">SENIOR 3D ENVIRONMENT & GENERALIST ARTIST</p>
+          <p className="hero-subtitle">3D ENVIRONMENT ARTIST & WORLD DESIGNER</p>
           
           <div className="hero-tags">
-            <span>XR</span>
+            <span>ENVIRONMENT DESIGN</span>
+            <span>•</span>
+            <span>UNREAL ENGINE 5</span>
             <span>•</span>
             <span>UNITY</span>
             <span>•</span>
-            <span>UNREAL ENGINE 5</span>
+            <span>SUBSTANCE PAINTER</span>
           </div>
 
           <div className="hero-actions">
@@ -52,7 +54,7 @@ export default function Home() {
           <RevealOnScroll>
             <h2>ABOUT&nbsp;ME</h2>
             <p className="about-text">
-              Senior 3D Environment & Generalist Artist with 4+ years of end-to-end experience in Unity VR/AR/MR, Unreal Engine cinematics, immersive simulations, digital twins, and real-time archviz visualization. Proven ability to architect highly optimized, standalone VR simulations for enterprise clients — including a 5 km real-world traffic replication and behavioral research deployed to pediatric participants with zero critical failures. Published independent researcher (Springer Nature, under peer review). Skilled in Unity XR Toolkit, UE5 Sequencer, Blender, 3ds Max, and Substance Painter, with deep expertise in LOD management, procedural shaders, draw-call mitigation, and performance-driven VR workflows.
+              3D Environment Artist & World Designer with 4+ years of experience crafting immersive real-time environments from scratch — from historical temple recreations to full-scale Bangalore city streets. Specialized in environment design, architectural visualization, and cinematic world-building across Unreal Engine 5 and Unity. Every asset, texture, and shader in my projects is hand-crafted: custom PBR materials in Substance Painter, hand-modeled architecture in Blender & 3ds Max, and bespoke procedural shaders for vegetation, water, and weathering. Published independent researcher (Springer Nature, under peer review). Deep expertise in LOD pipelines, draw-call optimization, and performance-tuned workflows for real-time and VR delivery.
             </p>
           </RevealOnScroll>
         </div>
@@ -107,6 +109,10 @@ export default function Home() {
             thumb: `${WEEBLY_BASE}/uploads/1/4/8/4/148408434/inshot-20251016-011218842.jpg`,
             full: `${WEEBLY_BASE}/uploads/1/4/8/4/148408434/inshot-20251016-011218842_orig.jpg`,
           },
+          {
+            thumb: '/madurai_references.png',
+            full: '/madurai_references.png',
+          },
         ]}
       />
 
@@ -151,13 +157,13 @@ export default function Home() {
       {/* ===== 3. DENSO VEHICLE SIM ===== */}
       <ProjectSection
         bgClass="section-dark"
-        title="DENSO: VEHICLE SIM"
-        subtitle="Large-Scale Traffic Simulation & Hardware Integration — Cross-Platform Architecture (PCVR & Desktop)"
+        title="DENSO: BANGALORE CITY SIM"
+        subtitle="5 km Real-World Bangalore Environment — Built Entirely from Scratch"
         bullets={[
-          'Led the design of a large-scale (5 km) car and motorcycle traffic simulation with dual cross-platform deployment for PCVR headsets and standard desktop architectures, replicating real-world Bangalore road conditions.',
-          'Integrated dual hardware input setups: physical steering wheel controllers for car driving, and custom IoT sensor-rigged actual motorcycle handlebar inputs built with the IoT hardware team.',
-          'Implemented cloud-connected employee login and post-session telemetry data transfer pipeline for research analytics.',
-          'Co-developed vehicle mechanics and telemetry systems alongside leading all 3D environment design, asset optimization, and custom shaders.',
+          'Designed and built an entire 5 km stretch of real Bangalore roads from scratch — every building, intersection, sidewalk, signage, and roadside element was hand-modeled and textured to replicate actual locations with cultural and architectural accuracy.',
+          'Created all environment assets from the ground up: Indian storefronts, auto-rickshaws, regional vehicles, road furniture, vegetation, and street-level props — nothing sourced from asset stores.',
+          'Developed custom shaders and materials for asphalt wear, painted road markings, weathered concrete, and regional signage, achieving photorealistic Bangalore street aesthetics optimized for real-time rendering.',
+          'Engineered the full LOD pipeline, texture atlasing, and draw-call optimization to maintain stable framerates across the massive open-world environment on both PCVR and desktop platforms.',
         ]}
         image="/denso_bike_2.png"
         youtubeId="7clGrV4JmJ8"
@@ -178,6 +184,10 @@ export default function Home() {
           {
             thumb: `${WEEBLY_BASE}/uploads/1/4/8/4/148408434/screenshot-2025-10-15-122053.png`,
             full: `${WEEBLY_BASE}/uploads/1/4/8/4/148408434/screenshot-2025-10-15-122053_orig.png`,
+          },
+          {
+            thumb: '/denso_references.png',
+            full: '/denso_references.png',
           },
         ]}
       />
