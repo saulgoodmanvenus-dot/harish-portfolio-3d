@@ -9,6 +9,22 @@ export default function YouTubeEmbed({ videoId }) {
 
   const handlePlay = () => {
     setLoaded(true);
+
+    // Request fullscreen on mobile devices to improve performance and experience
+    if (window.innerWidth <= 768 && wrapperRef.current) {
+      const elem = wrapperRef.current;
+      try {
+        if (elem.requestFullscreen) {
+          elem.requestFullscreen();
+        } else if (elem.webkitRequestFullscreen) {
+          elem.webkitRequestFullscreen();
+        } else if (elem.msRequestFullscreen) {
+          elem.msRequestFullscreen();
+        }
+      } catch (err) {
+        console.error("Error attempting to enable fullscreen:", err);
+      }
+    }
   };
 
   return (
@@ -38,9 +54,9 @@ export default function YouTubeEmbed({ videoId }) {
         </div>
       ) : (
         <iframe
-          src={`https://www.youtube.com/embed/${videoId}?autoplay=1&rel=0&modestbranding=1&vq=hd1080&playsinline=1`}
+          src={`https://www.youtube.com/embed/${videoId}?autoplay=1&rel=0&modestbranding=1&vq=hd1080&playsinline=0`}
           title="YouTube video"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; fullscreen"
           allowFullScreen
         />
       )}
