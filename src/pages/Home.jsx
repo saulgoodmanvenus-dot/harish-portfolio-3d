@@ -14,7 +14,7 @@ export default function Home() {
       <section
         className="hero"
         style={{
-          backgroundImage: `url('${WEEBLY_BASE}/uploads/1/4/8/4/148408434/background-images/1995618105.png')`,
+          backgroundImage: `url('/hero-bg.webp')`,
         }}
       >
         <div className="hero-content">
@@ -148,9 +148,43 @@ export default function Home() {
         </div>
       </section>
 
-      {/* ===== 3. APOLLO TYRES ===== */}
+      {/* ===== 3. DENSO VEHICLE SIM ===== */}
       <ProjectSection
         bgClass="section-dark"
+        title="DENSO: VEHICLE SIM"
+        subtitle="Large-Scale Traffic Simulation & Hardware Integration — Cross-Platform Architecture (PCVR & Desktop)"
+        bullets={[
+          'Led the design of a large-scale (5 km) car and motorcycle traffic simulation with dual cross-platform deployment for PCVR headsets and standard desktop architectures, replicating real-world Bangalore road conditions.',
+          'Integrated dual hardware input setups: physical steering wheel controllers for car driving, and custom IoT sensor-rigged actual motorcycle handlebar inputs built with the IoT hardware team.',
+          'Implemented cloud-connected employee login and post-session telemetry data transfer pipeline for research analytics.',
+          'Co-developed vehicle mechanics and telemetry systems alongside leading all 3D environment design, asset optimization, and custom shaders.',
+        ]}
+        image="/denso_bike_2.png"
+        youtubeId="7clGrV4JmJ8"
+        galleryCols={2}
+        galleryImages={[
+          {
+            thumb: `${WEEBLY_BASE}/uploads/1/4/8/4/148408434/screenshot-2025-10-15-120026.png`,
+            full: `${WEEBLY_BASE}/uploads/1/4/8/4/148408434/screenshot-2025-10-15-120026_orig.png`,
+          },
+          {
+            thumb: `${WEEBLY_BASE}/uploads/1/4/8/4/148408434/screenshot-2025-10-15-115938.png`,
+            full: `${WEEBLY_BASE}/uploads/1/4/8/4/148408434/screenshot-2025-10-15-115938_orig.png`,
+          },
+          {
+            thumb: '/denso_bike_1.png',
+            full: '/denso_bike_1.png',
+          },
+          {
+            thumb: `${WEEBLY_BASE}/uploads/1/4/8/4/148408434/screenshot-2025-10-15-122053.png`,
+            full: `${WEEBLY_BASE}/uploads/1/4/8/4/148408434/screenshot-2025-10-15-122053_orig.png`,
+          },
+        ]}
+      />
+
+      {/* ===== 4. APOLLO TYRES ===== */}
+      <ProjectSection
+        bgClass="section-darker"
         title="APOLLO TYRES"
         subtitle="Digital Twin & Logistics Simulation – Apollo Tyres (Ongoing)"
         bullets={[
@@ -183,40 +217,6 @@ export default function Home() {
           {
             thumb: `${WEEBLY_BASE}/uploads/1/4/8/4/148408434/screenshot-2025-09-23-105456-2.png`,
             full: `${WEEBLY_BASE}/uploads/1/4/8/4/148408434/screenshot-2025-09-23-105456-2_orig.png`,
-          },
-        ]}
-      />
-
-      {/* ===== 4. DENSO VEHICLE SIM ===== */}
-      <ProjectSection
-        bgClass="section-darker"
-        title="DENSO: VEHICLE SIM"
-        subtitle="Large-Scale Traffic Simulation & Hardware Integration — Cross-Platform Architecture (PCVR & Desktop)"
-        bullets={[
-          'Led the design of a large-scale (5 km) car and motorcycle traffic simulation with dual cross-platform deployment for PCVR headsets and standard desktop architectures, replicating real-world Bangalore road conditions.',
-          'Integrated dual hardware input setups: physical steering wheel controllers for car driving, and custom IoT sensor-rigged actual motorcycle handlebar inputs built with the IoT hardware team.',
-          'Implemented cloud-connected employee login and post-session telemetry data transfer pipeline for research analytics.',
-          'Co-developed vehicle mechanics and telemetry systems alongside leading all 3D environment design, asset optimization, and custom shaders.',
-        ]}
-        image="/denso_bike_2.png"
-        youtubeId="7clGrV4JmJ8"
-        galleryCols={2}
-        galleryImages={[
-          {
-            thumb: `${WEEBLY_BASE}/uploads/1/4/8/4/148408434/screenshot-2025-10-15-120026.png`,
-            full: `${WEEBLY_BASE}/uploads/1/4/8/4/148408434/screenshot-2025-10-15-120026_orig.png`,
-          },
-          {
-            thumb: `${WEEBLY_BASE}/uploads/1/4/8/4/148408434/screenshot-2025-10-15-115938.png`,
-            full: `${WEEBLY_BASE}/uploads/1/4/8/4/148408434/screenshot-2025-10-15-115938_orig.png`,
-          },
-          {
-            thumb: '/denso_bike_1.png',
-            full: '/denso_bike_1.png',
-          },
-          {
-            thumb: `${WEEBLY_BASE}/uploads/1/4/8/4/148408434/screenshot-2025-10-15-122053.png`,
-            full: `${WEEBLY_BASE}/uploads/1/4/8/4/148408434/screenshot-2025-10-15-122053_orig.png`,
           },
         ]}
       />
