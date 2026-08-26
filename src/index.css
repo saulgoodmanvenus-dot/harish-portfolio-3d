@@ -657,6 +657,26 @@ h1, h2, h3, h4, h5, h6 {
   backface-visibility: hidden;
 }
 
+.youtube-wrapper:fullscreen {
+  padding-bottom: 0;
+  height: 100vh;
+  border-radius: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #000;
+}
+
+.youtube-wrapper:-webkit-full-screen {
+  padding-bottom: 0;
+  height: 100vh;
+  border-radius: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #000;
+}
+
 .youtube-wrapper iframe {
   position: absolute;
   top: 0;
@@ -665,6 +685,16 @@ h1, h2, h3, h4, h5, h6 {
   height: 100%;
   border: 0;
   border-radius: 8px;
+}
+
+.youtube-wrapper:fullscreen iframe {
+  position: relative;
+  border-radius: 0;
+}
+
+.youtube-wrapper:-webkit-full-screen iframe {
+  position: relative;
+  border-radius: 0;
 }
 
 /* Lite YouTube thumbnail */
